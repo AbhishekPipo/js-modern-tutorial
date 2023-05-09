@@ -7,9 +7,60 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Js Modern Tutorial</h1>
-    <div class="a"></div>
+    <center>
+      <h1>Random Quote Generator</h1>
+      <p id="quote"></p>
+      <br />
+      <p id="author"></p>
+      <button id="btn" onclick="getQuote()">Generate Random Quote</button>
+    </center>
+
+    <script>
+      // let quoteTag = document.getElementById("quote");
+      // let authorTag = document.getElementById("author");
+      // // let btnTag = document.getElementById("btn");
+      // let url = "https://quote-garden.onrender.com/api/v3/quotes";
+      // function getQuote() {
+      //   fetch(url)
+      //     .then((response) => response.json())
+      //     .then((result) => {
+      //       const quotes = result.data;
+      //       const randomquote =
+      //         quotes[Math.floor(Math.random() * quotes.length)];
+      //       const author = randomquote.quoteAuthor;
+      //       const quote = randomquote.quoteText;
+      //       quoteTag.innerHTML = quote;
+      //       authorTag.innerHTML = author;
+      //     })
+      //     .catch((error) => console.log(error));
+      // }
+      // getQuote();
+
+      // const url = "https://api.chucknorris.io/jokes/random?count=3";
+      // fetch(url)
+      //   .then((response) => response.json())
+      //   .then((data) => console.log(data));
+
+      /**
+       * debugging and developer tools
+       * done reading
+       *
+       *@fname abhi
+       *@name abhishek
+       **/
+
+      // function fname() {
+      //   console.log("abhi");
+      // }
+      // function name() {
+      //   console.log("abhishek");
+      //   fname();  debugger
+      // }
+
+      // name();
+    </script>
     <!-- <script src="./alert,promt,confirm.js"></script> -->
-    <script src="./arrowfunctions.js"></script>
+    <!-- <script src="./alert,promt,confirm.js"></script> -->
+    <!-- <script src="./arrowfunctions.js"></script> -->
   </body>
 </html>
